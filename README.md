@@ -27,13 +27,18 @@ tar_manifest(fields = all_of("command"))
 tar_make()
 ```
 
-```         
+```
 ▶ dispatched target file
 ● completed target file [0.104 seconds]
-✔ skipped target data
-✔ skipped target model
-✔ skipped target plot
-▶ ended pipeline [0.151 seconds]
+▶ dispatched target data
+New names:
+• `` -> `...1`
+● completed target data [0.113 seconds]
+▶ dispatched target model
+● completed target model [0.002 seconds]
+▶ dispatched target plot
+● completed target plot [0.008 seconds]
+▶ ended pipeline [0.293 seconds]
 ```
 
 # view the results
