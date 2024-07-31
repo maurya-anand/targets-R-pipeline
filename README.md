@@ -1,4 +1,4 @@
-# targets-R-proj
+# targets-R-pipeline
 
 # setup
 ```{r}
