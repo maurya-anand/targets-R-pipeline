@@ -1,5 +1,10 @@
 # targets-R-proj
 
+# setup
+```{r}
+install.packages(c("visNetwork", "targets"))
+```
+
 # check for errors
 
 ```{r}
@@ -37,7 +42,7 @@ tar_make()
 tar_read(plot)
 ```
 
-![](images/clipboard-2496913300.png){width="418"}
+![](images/clipboard-2496913300.png)
 
 ```{r}
 tar_read(model)
